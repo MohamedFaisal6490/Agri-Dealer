@@ -1,0 +1,40 @@
+.UserInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.inputBoxOne {
+  position: absolute;
+  top: 32%;
+  left: 35%;
+}
+.heading h1 {
+  padding-left: 38%;
+  padding-top: 6rem;
+}
+.updateBox {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 100%;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+p {
+  padding: 10px 5px;
+}
+
+.updateBox h1 {
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .inputBoxOne {
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 6rem;
+  }
+}

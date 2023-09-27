@@ -1,0 +1,64 @@
+.footerContent {
+  background-color: black;
+  padding: 4px;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 30px;
+}
+.FooterTitle h1 {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.logoOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoOne img {
+  width: 100%;
+  height: 100px;
+}
+.logoOne p {
+  color: white;
+}
+
+.logotwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2rem;
+}
+.logotwo img {
+  width: 100%;
+  height: 100px;
+}
+
+.logotwo p {
+  color: white;
+}
+
+.LogoSection {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 25px;
+}
+@media (max-width: 550px) {
+  .LogoSection {
+    display: block;
+    padding: 20px 10px;
+  }
+}
+.address {
+  color: white;
+  padding: 10px 20px;
+}
+.address h2 {
+  padding-bottom: 5px;
+}
+.address h3 {
+  padding-bottom: 7px;
+}

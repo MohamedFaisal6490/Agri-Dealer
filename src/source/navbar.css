@@ -1,0 +1,42 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(8, 106, 15);
+  padding: 1.4rem;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 30px;
+}
+.navBar h1 {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navBar a {
+  text-decoration: none;
+}
+
+.navBtn {
+  margin-right: 2rem;
+}
+
+.navBtn .link {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 800;
+  border-radius: 8px;
+}
+.navLogolink:hover {
+  background-color: rgb(4, 17, 47);
+  color: white;
+}

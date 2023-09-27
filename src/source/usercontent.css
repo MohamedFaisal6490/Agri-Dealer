@@ -1,0 +1,71 @@
+.userContent img {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: cover;
+  background-position: cover;
+  padding-top: 6%;
+}
+
+.ButtonSection {
+  position: absolute;
+  top: 32%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 30px;
+  text-align: center;
+  padding: 10px 18px;
+}
+
+.ButtonSection h2 {
+  color: rgb(33, 151, 20);
+  text-decoration-color: white;
+}
+.ButtonSection button {
+  background-color: rgb(33, 151, 20);
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.ButtonSection button:hover {
+  color: black;
+  background-color: white;
+}
+.ButtonSection p {
+  color: white;
+  padding-top: 5px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttonOne {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+.buttonTwo {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+.buttonThree {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+@media (max-width: 550px) {
+  .ButtonSection {
+    display: flex;
+    flex-direction: column;
+    top: 15%;
+    grid-gap: 10px;
+  }
+}
